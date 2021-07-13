@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    tools:context=".watch">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="258dp"
+        android:src="@drawable/bgcircle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/clock"/>
+
+    <ImageView
+        android:layout_width="358dp"
+        android:layout_height="357dp"
+        android:src="@drawable/cl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/kata"/>
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/os"
+        android:id="@+id/mtr"/>
+
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cb2"
+        android:text="Start Workout"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:id="@+id/bt1"/>
+
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cb3"
+        android:text="Stop Workout"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:id="@+id/bt2"/>
+
+</RelativeLayout>

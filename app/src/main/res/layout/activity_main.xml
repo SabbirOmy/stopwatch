@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#00294D">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="344dp"
+        android:layout_height="530dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#00294D">
+
+        <ImageView
+            android:id="@+id/imv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pic1"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stay Safe and Stay Healthy"
+        android:layout_marginTop="560dp"
+        android:textSize="23sp"
+        android:textColor="#FFF"
+        android:fontFamily="@font/os"
+        android:textAlignment="center"/>
+    
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cb"
+        android:text="Start Workout"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:id="@+id/btn"/>
+    
+
+
+
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>
